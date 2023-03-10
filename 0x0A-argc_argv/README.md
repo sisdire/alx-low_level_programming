@@ -1,4 +1,3 @@
-
 C - argc, argv
 		
 
@@ -102,6 +101,4 @@ you should use atoi to parse the parameter passed to your program
 If the number passed as the argument is negative, print 0, followed by a new line
 		
 You can use an unlimited number of coins of values 25, 10, 5, 2, and 1 cent
-
-
 
