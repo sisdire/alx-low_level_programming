@@ -1,19 +1,20 @@
-#include <stdio.h>                                                                                                                   
-#include "main.h"                                                                                                                    
-                                                                                                                                     
-/**                                                                                                                                  
- * main - Print the name of the program                                                                                              
- * @argc: Count arguments                                                                                                            
- * @argv: Arguments                                                                                                                  
- *                                                                                                                                   
- * Return: Always 0 (Success)                                                                                                        
- */                                                                                                                                  
-                                                                                                                                     
-int main(int argc, char *argv[])                                                                                                     
-{                                                                                                                                    
-(void) argc;                                                                                                                         
-printf("%s\n", argv[0]);                                                                                                             
-                                                                                                                                     
-return (0);                                                                                                                          
-}
+#include "main.h"
 
+/**
+ * main - the entry point
+ * @argc: argument counter
+ * @argv: array of pointer to strings
+ *
+ * Return: 0
+ */
+
+
+int main(int argc, char *argv[])
+{
+int i;
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+	return (0);
+}
