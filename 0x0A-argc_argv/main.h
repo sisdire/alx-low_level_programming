@@ -1,15 +1,11 @@
-
 #ifndef MAIN_H
-		
 #define MAIN_H
-		
 
-		
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+
 int _putchar(char c);
-		
-int _atoi(char *s);
-		
+int main(int argc, char* argv[]);
 
-		
-#endif
-
+#endif /*MAIN_H*
